@@ -30,8 +30,6 @@
     "eject": "react-scripts eject",
     "server": "npx json-server --watch public/db.json --port=3001"
   },
-  "proxy": "https://my-json-server.typicode.com/MarinaRS14/pizza_json",
-
   "eslintConfig": {
     "extends": [
       "react-app",
