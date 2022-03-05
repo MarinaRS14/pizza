@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import propTypes from 'prop-types';
 
 const Categories = React.memo(function Categories({activeCategory, items, onClickCategory}) {

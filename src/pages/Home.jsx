@@ -3,7 +3,7 @@ import {Categories, SortPopup} from '../components'
 import PizzaBlock from '../components/PizzaBlock/PizzaBlock';
 import { useSelector, useDispatch } from 'react-redux';
 import { setCategory, setSortBy } from '../redux/actions/filters';
-import {fetchPizzas, setPizzas} from '../redux/actions/pizzas';
+import {fetchPizzas} from '../redux/actions/pizzas';
 import { addPizzaToCart } from '../redux/actions/cart';
 import LoadingBlock from '../components/PizzaBlock/LoadingBlock';
 
