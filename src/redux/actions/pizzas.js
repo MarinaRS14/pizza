@@ -3,7 +3,7 @@ import axios from 'axios';
 export const fetchPizzas = (sortBy, category) => (dispatch) => {
     dispatch(setLoaded(false));
     axios.get(`https://my-json-server.typicode.com/MarinaRS14/pizza_json/pizzas?${category !== null ? `category=${category}` : ''}&_sort=${sortBy.type}&_order=${sortBy.order}`).then(({data}) => dispatch(setPizzas(data)))
-};c
+};
  
 
 export const setPizzas = (items) => {
